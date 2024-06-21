@@ -16,6 +16,7 @@
 .prettierignore
 
 ###############################################
-## Please do not remove line 21 - thanks! 🙂 ##
+## Please do not remove line 21 and 22 - thanks! 🙂 ##
 ###############################################
 node_modules/
+design/
