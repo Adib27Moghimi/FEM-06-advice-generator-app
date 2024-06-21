@@ -2,11 +2,6 @@
 module.exports = {
   content: ["./src/**/*.js", "./index.html"],
   theme: {
-    screens: {
-      max375: { max: "375px" },
-      mobile2: "375px",
-      laptop: "1024px",
-    },
     extend: {
       colors: {
         primary: {
@@ -27,15 +22,20 @@ module.exports = {
           },
         },
       },
-    },
-    fontFamily: {
-      manrope: ["Manrope", "sans-serif"],
-    },
-    fontSize: {
-      optical: "auto",
-    },
-    fontWeight: {
-      800: "800",
+      screens: {
+        max375: { max: "375px" },
+        mobile2: "375px",
+        laptop: "1024px",
+      },
+      fontFamily: {
+        manrope: ["Manrope", "sans-serif"],
+      },
+      fontSize: {
+        optical: "auto",
+      },
+      fontWeight: {
+        800: "800",
+      },
     },
   },
   plugins: [],

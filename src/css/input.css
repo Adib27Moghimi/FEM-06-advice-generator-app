@@ -8,7 +8,10 @@
   body {
     @apply font-manrope text-optical font-800 not-italic;
   }
-  body span.quote {
-    @apply text-[28px];
+}
+
+@layer components {
+  .message-text {
+    @apply absolute left-1/2 -translate-x-1/2 text-xs;
   }
 }
