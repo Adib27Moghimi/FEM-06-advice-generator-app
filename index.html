@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Adib Moghimi" />
+    <meta name="robots" content="index,follow,max-image-pre" />
+    <meta
+      name="description"
+      content="A fully responsive advice generator app made using html5, css3, tailwindcss and pure javascript, which has an attractive UI/UX and displays all interactions with the user when hovering and clicking on the button."
+    />
     <link
       rel="icon"
       type="image/png"
@@ -14,9 +20,44 @@
     <script defer type="module" src="./src/js/App.js"></script>
     <title>Advice generator app</title>
   </head>
-  <body>
-    Advice #<!-- Advice ID goes here -->
-
-    "<!-- Advice text goes here -->"
+  <body class="bg-neutral-blue-dark h-screen flex justify-center items-center">
+    <main
+      class="h-[344px] w-80 laptop:h-80 laptop:w-[30rem] bg-neutral-blue-grayish-dark rounded-xl p-7 laptop:px-9 text-center flex flex-col gap-y-9 relative"
+    >
+      <h6 class="advice-number text-primary-green-neon">
+        Advice #<span id="adviceNum">115</span>
+      </h6>
+      <p id="fetchStatus" class="fetch-status message-text top-14 w-72"></p>
+      <div
+        class="advice-content text-[28px] text-primary-cyan-light h-[57%] laptop:h-[48%] overflow-hidden"
+      >
+        <span>"</span>
+        <p id="adviceText" class="advice-text inline text-2xl break-words">
+          One of the top five regrets people have is that they didn't have the
+          courage to be their true self.
+        </p>
+        <span>"</span>
+      </div>
+      <p
+        id="finished"
+        class="finished message-text bottom-16 laptop:bottom-20"
+      ></p>
+      <img
+        class="laptop:hidden"
+        src="./assets/images/pattern-divider-mobile.svg"
+        alt="pattern-divider-mobile"
+      />
+      <img
+        class="hidden laptop:block shadow-2xl"
+        src="./assets/images/pattern-divider-desktop.svg"
+        alt="pattern-divider-desktop"
+      />
+      <button
+        id="dice"
+        class="dice-button bg-primary-green-neon p-5 size-16 laptop:size-14 laptop:p-[1.125rem] rounded-full self-center absolute -bottom-9 laptop:-bottom-7 shadow-primary-green-neon hover:shadow-[0_0_20px_5px_var(--tw-shadow-color)] active:scale-125 transition-all"
+      >
+        <img src="./assets/images/icon-dice.svg" alt="icon-dice" />
+      </button>
+    </main>
   </body>
 </html>
