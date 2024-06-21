@@ -755,20 +755,12 @@ body{
 }
 
 @media (min-width: 1024px){
-  .laptop\:bottom-20{
-    bottom: 5rem;
-  }
-
-  .laptop\:-bottom-10{
-    bottom: -2.5rem;
-  }
-
-  .laptop\:-bottom-8{
-    bottom: -2rem;
-  }
-
   .laptop\:-bottom-7{
     bottom: -1.75rem;
+  }
+
+  .laptop\:bottom-20{
+    bottom: 5rem;
   }
 
   .laptop\:block{
@@ -784,49 +776,16 @@ body{
     height: 3.5rem;
   }
 
-  .laptop\:size-12{
-    width: 3rem;
-    height: 3rem;
-  }
-
   .laptop\:h-80{
     height: 20rem;
-  }
-
-  .laptop\:h-1\/2{
-    height: 50%;
-  }
-
-  .laptop\:h-\[52\%\]{
-    height: 52%;
   }
 
   .laptop\:h-\[48\%\]{
     height: 48%;
   }
 
-  .laptop\:w-\[28rem\]{
-    width: 28rem;
-  }
-
-  .laptop\:w-96{
-    width: 24rem;
-  }
-
-  .laptop\:w-\[32rem\]{
-    width: 32rem;
-  }
-
   .laptop\:w-\[30rem\]{
     width: 30rem;
-  }
-
-  .laptop\:p-4{
-    padding: 1rem;
-  }
-
-  .laptop\:p-3{
-    padding: 0.75rem;
   }
 
   .laptop\:p-\[1\.125rem\]{

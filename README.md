@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution url in Frontend mentor]()
-- Live Site URL: [My live site url in GitHub]()
+- Solution URL: [My solution url in Frontend mentor](https://www.frontendmentor.io/solutions/a-fully-responsive-advice-generator-app-with-tailwindcss-javascript-0eeBxM_Loz)
+- Live Site URL: [My live site url in GitHub](https://adib27moghimi.github.io/FEM-06-advice-generator-app/)
 
 ## My process
 
