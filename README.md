@@ -130,7 +130,7 @@ export default function OrdinalNumber(integer1UP) {
   }`;
 }
 
-document.addEventListener("DOMContentLoaded", CheckScroll(adviceContent));
+document.addEventListener("DOMContentLoaded", () => CheckScroll(adviceContent));
 ```
 
 ## Author
