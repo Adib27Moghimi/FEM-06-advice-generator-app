@@ -78,4 +78,4 @@ const getIdOfAdvice = async () => {
 };
 
 diceButton.addEventListener("click", getIdOfAdvice);
-document.addEventListener("DOMContentLoaded", CheckScroll(adviceContent));
+document.addEventListener("DOMContentLoaded", () => CheckScroll(adviceContent));
